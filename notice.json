@@ -1,7 +1,7 @@
 {
-"active": false,
-"target": "6.14",
-"version": 3,
+"active": true,
+"target": "6.15",
+"version": 1,
 "title": "Important notice from The Great Suspender!",
 "text": "Hello worlds 2!"
 }
