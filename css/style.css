@@ -810,8 +810,7 @@ input[type=checkbox]:checked:before { background: url(/img/checkOn.png) #fff; }
 		.legal-nav .active { color: rgba(0,0,0,0.8) !important; }
 		.legal-nav .highlight { height: 2px; position: absolute; bottom: 0; left: 18px; right: 18px; opacity: 1; background: rgba(0,0,0,0.4); content: ''; }
 
-
-.legal h2 { padding-top: 0px; margin-bottom: 119px; }
+.legal h2 { margin: 0; color: #222; font-size: 3em; font-weight: 300; text-align: center; padding-top: 0px; margin-bottom: 119px; }
 .legal h4 { margin: 2.7em 0 1.25em; font-size: 140%; }
 
 .legal p, .legal li { font-size: 100%; line-height: 1.6; }
