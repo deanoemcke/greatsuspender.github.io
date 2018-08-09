@@ -1,14 +1,3 @@
-/*
-
-                - - /|_/|      .-------------------.
-  - _______________| @.@|     /      Styles by      )
--- (______         >\_C/< ---/    Liam Johnston    /
-  -  -   / ______  _/____)  (   @liamjohnstonnz   /
- -  -   / /\ \   \ \         `-------------------'
-   - (_/  \_) - \_)
-
-*/
-
 /* RESET */
 
 html, body, div, span, applet, object, iframe,
@@ -68,6 +57,11 @@ h1 {
     font-size: 24px;
     margin-bottom: 20px;
 }
+h2 { margin: 0; color: #222; font-size: 3em; font-weight: 300; text-align: center; }
+h3 { margin: 0; font-size: 2em; font-weight: 300; text-align: center; }
+h4 { margin: 0; font-size: 1.5em; }
+h5 { margin: 0; font-size: 1.1em; }
+h6 { margin: 0; font-size: 1em; }
 div {
     width: 900px;
     margin: 40px auto;	
@@ -811,4 +805,43 @@ input[type=checkbox]:checked:before { background: url(/img/checkOn.png) #fff; }
     filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
 }
+
+
+.legal { margin: 114px auto 140px; }
+
+.legal-nav { margin-top: 75px; padding-top: 13px; display: flex; justify-content: center; border-top: 1px solid #eee; text-align: center; }
+	.legal-nav a { padding: 16px 18px; position: relative; display: inline-block; color: rgba(0,0,0,0.45); font-size: 15px; text-decoration: none; }
+		.legal-nav a:hover { color: rgba(0,0,0,0.65); }
+		.legal-nav .active { color: rgba(0,0,0,0.8) !important; }
+		.legal-nav .highlight { height: 2px; position: absolute; bottom: 0; left: 18px; right: 18px; opacity: 1; background: rgba(0,0,0,0.4); content: ''; }
+
+
+.legal h2 { padding-top: 0px; margin-bottom: 119px; }
+.legal h4 { margin: 2.7em 0 1.25em; font-size: 140%; }
+
+.legal p, .legal li { font-size: 100%; line-height: 1.6; }
+.legal li { margin-left: 0em; }
+
+.legal .summary { margin-bottom: 7em; padding: 2.75em 0; border-top: 1px solid rgba(0,0,0,0.12); border-bottom: 1px solid rgba(0,0,0,0.12); font-size: 112.5%; }
+	.legal .summary h4 { margin-top: 0; }
+	.legal .summary p:last-child { margin-bottom: 0; }
+
+.legal table { margin-bottom: 2.5em;  }
+	.legal tr { }
+		.legal tbody tr:nth-child(even) { background: rgba(0,0,0,0.04); }
+		.legal th, .legal td { padding: 14px 12px; }
+			.legal th:first-child, .legal td:first-child { font-weight: 600; }
+			.legal td:last-child, .legal td:last-child {  }
+
+		.legal th { opacity: 0.65; font-size: 14px; font-weight: 600; text-align: left; text-transform: uppercase; }
+
+		.legal td { border-top: 1px solid rgba(0,0,0,0.12); font-size: 15px; line-height: 1.5; vertical-align: top; }
+			.legal tr:last-child td { border-bottom: 1px solid rgba(0,0,0,0.12); }
+			.legal td:first-child { min-width: 190px; }
+
+
+.legal .last-updated { margin-top: 3em; opacity: 0.65; font-style: italic; }
+
+.footer-legal, .footer-privacy-policy { position: relative; }
+
 
