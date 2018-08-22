@@ -1,7 +1,7 @@
 {
   "active": true,
-  "target": "7.4.103",
+  "target": "7.4.104",
   "version": 1,
   "title": "Holla holla!",
-  "text": "<div style='margin: 20px;'><img style='height:200px;' src='https://greatsuspender.github.io/img/suspendy-guy-uh-oh.png' /><span style='font-size:30px;vertical-align: top;'>Liam!<span /> <br /><img style='width:400px;' src='https://i.imgur.com/xkKw5r8.jpg' /><br />Stop looking at cats and get back to work!</div>"
+  "text": "<div style='margin: 20px;'><img style='height:200px;' src='https://greatsuspender.github.io/img/suspendy-guy-uh-oh.png' /><span style='font-size:30px;vertical-align: top;'>Liam!<span /> <br /><img style='width:400px;' src='https://i.imgur.com/xkKw5r8.jpg' /><br />Not dogfood.</div>"
 }
